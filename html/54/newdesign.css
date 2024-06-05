@@ -1,0 +1,41 @@
+.mainpage{
+    font-style: oblique;
+}
+.mainpage img{
+box-shadow: 5px -5px 4px whitesmoke;
+}
+
+#app{
+background-color: whitesmoke;
+font-size: 25px;
+font-style: oblique;
+text-shadow: 5px -5px 4px darkred;
+}
+
+#app img{
+/* background-color: black; */
+box-shadow: 5px -5px 4px darkred;
+
+}
+
+#main{
+background-color: darkred;
+font-size: 25px ;
+font-style: oblique;
+text-shadow: 5px -5px 4px whitesmoke;
+
+}
+#main img{
+    box-shadow: 5px -5px 4px whitesmoke;
+
+}
+
+#menu{
+    background-color: black;
+}
+
+#home{
+    font-size: 25px;
+    color: darkred;
+    text-shadow: 5px -4px 3px whitesmoke;
+}
