@@ -1,0 +1,44 @@
+body {
+    font-size: 20px;
+
+    margin-bottom: 30px;
+    background-color: #4C0013;
+    text-align: center;
+    max-width: 950px;
+    margin: auto;
+}
+
+a {
+    margin-bottom: 30px;
+    display: block;
+    color: black;
+    font-size: 25px;
+
+}
+
+img {
+    margin-top: 15px;
+    width: 500px;
+    border: 10px solid black;
+    padding: 10px;
+    box-shadow: 5px -5px 4px darkred;
+
+}
+
+.vids {
+    width: 400px;
+}
+
+#homem {
+    display: block;
+    margin: auto;
+
+}
+
+.desc {
+    font-family: "Romanesco", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+
+}

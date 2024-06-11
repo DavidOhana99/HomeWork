@@ -20,4 +20,5 @@ body {
   background-color: yellow;
   border: 1px solid black;
   text-align: center;
+  line-height: 3em;
 }
