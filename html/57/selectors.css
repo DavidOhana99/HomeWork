@@ -1,0 +1,15 @@
+.special {
+    font-weight: bold;
+  }
+
+  p.special {
+    font-style: italic;
+  }
+
+  section + p {
+    font-family: cursive;
+  }
+
+  section > p {
+    text-transform: uppercase;
+  }
