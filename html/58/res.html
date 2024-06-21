@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="newdesign.css"> -->
+
+    <style>
+        body {
+            background-color: #4C0013;
+            text-align: center;
+           
+    
+        }
+        label{
+            margin-top: 10px;
+            font-weight: bold;
+            margin-bottom: 0.5em;
+             font-size: 20px;
+        }
+        form{
+            
+            display: flex;
+            flex-direction: column;
+            max-width: 50%;
+           margin: auto;
+           
+        }
+        
+        a{
+            font-size: 25px;
+            font-weight: bold;
+            color: black;
+        }
+        table{
+            border-collapse: collapse;
+            margin: auto;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        td, th {
+        border: 1px solid black;
+      }
+      #number{
+        margin-right: 29px;
+      }
+
+      #email{
+        margin-left: 43px;
+      }
+      #spl{    margin-right: 38px;}
+    </style>
+</head>
+
+<body>
+
+    <img src="..\..\images\web-small4.png" alt="Logo" />
+
+
+    <form method="post">
+        <label>
+            First Name:
+            <input name="first"/>
+        </label>
+
+        <label>Last Name: <input name="last" /></label>
+       
+
+        <label id="number">
+            Phone number:
+            <input type="tel" name="telephone" />
+        </label>
+
+        <label id="email">
+            Email:
+            <input type="email" name="email" />
+        </label>
+
+        <label>
+            Day:
+            <input type="date" name="day" value="2024-01-01" />
+        </label>
+
+        <label id="spl">
+            Special request:
+            <textarea name="speacial request" placeholder="speacial request" xrows="10" xcols="30"></textarea>
+        </label>
+
+        <input type="submit" value="reserve" />
+
+    </form>
+    <h2>Thank you looking forward to serving you </h2>
+   
+
+    <h1>Hours</h1>
+    <table>
+      <caption>Days and hours subject to change on holidays</caption>
+      <thead>
+        <tr>
+          <th>Days</th>
+          <th>Hours</th>
+          <th>lunch</th>
+          <th>Happy Hour</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td>sunday</td>
+          <td>5pm-11pm</td>
+          <td>1pm-3-pm</td>
+          <td>5pm-8pm</td>
+          
+        </tr>
+        
+          <td>mun-thur</td>
+          <td>5pm-12pm</td>
+          <td>1pm-3-pm</td>
+          <td>5pm-7pm</td>
+        </tr>
+        <tr>
+          <td>fridy/sat</td>
+          <td>closed</td>
+          <td>closed</td>
+          <td>closed</td>
+        </tr>
+    </table>
+    <a class="menubutton" href="index.html">Home</a>
+</body>
+
+</html>

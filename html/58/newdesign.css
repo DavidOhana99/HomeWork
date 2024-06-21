@@ -1,0 +1,70 @@
+.mainpage{
+    
+    font-style: oblique;
+    
+}
+.mainpage img{
+box-shadow: 5px -5px 4px darkred;
+margin-top: 15px;
+}
+
+#app{
+background-color: #4C0013;
+font-size: 25px;
+font-style: oblique;
+text-shadow: 5px -5px 4px darkred;
+position: relative;
+}
+
+#app img{
+/* background-color: black; */
+box-shadow: 5px -5px 4px darkred;
+}
+
+#main{
+background-color: #4C0013;
+font-size: 25px ;
+font-style: oblique;
+text-shadow: 5px -5px 4px darkred;
+}
+
+#main img{
+    box-shadow: 5px -5px 4px darkred;
+}
+
+#menu{
+    background-color: #4C0013;
+}
+
+#home{
+    font-size: 25px;
+    color: black;
+    text-shadow: 5px -4px 3px darkred;
+    position: fixed;
+    bottom: 0px;
+}
+
+.vids{
+    width: 400px;
+    height: 300px;
+}
+
+
+#homem{
+    display: block;
+    margin: auto;
+    
+}
+
+#indexbdy{
+    background-image: url('/images/backround.jpeg');
+    background-repeat: repeat;
+    
+
+   
+    
+}
+
+.menubutton:hover{
+    background-color: brown;
+}
