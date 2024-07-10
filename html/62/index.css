@@ -1,7 +1,49 @@
+
 body{
     background-color: darkgreen;
 }
 
+header{
+    position: relative;
+}
+
 #intro{
+   margin-left: 80px;
+   margin-top: 50px;
     color: orangered;
+   
+}
+
+#abt{
+    text-align: center;
+
+   
+}
+img{
+     /* position: absolute;  */
+    margin-left: 70%;
+    margin-top:-120px;
+    height: 400px;
+    
+}
+#inspo{ 
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.mb-3{
+    margin-left: 40px;
+  max-width: 70%;
+  /* position: fixed; */
+  bottom: 2em;
+  /* margin-left: 6%; */
+    /* margin: 22px;
+    margin-bottom: 2em !important; */
+}
+p{
+    text-align: left;
+}
+
+#inspo #about {
+    color: darkgrey;
 }
