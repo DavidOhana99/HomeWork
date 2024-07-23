@@ -1,0 +1,7 @@
+{
+    "rules": {
+      "no-plusplus": "error" ,
+      "no-undef":"error"
+    }
+  }
+  
