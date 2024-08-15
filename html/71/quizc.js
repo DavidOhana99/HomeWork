@@ -7,7 +7,7 @@ function counter() {
 }
 
 
-function counters2(number, newcounter) {
+function cntr(number, newcounter) {
     for (let i = 0; i <= number; i++) {
 
         console.log(newcounter.increment(i));
@@ -17,8 +17,8 @@ function counters2(number, newcounter) {
 counter();
 app.counter.getCount();
 
-const aCounter = app.Counters2.createCounter();
-counters2(5, aCounter);
+const aCounter = app.cntr.createCounter();
+cntr(5, aCounter);
 
-const aScndCounter = app.Counters2.createCounter();
-counters2(10, aScndCounter);
+const aScndCounter = app.cntr.createCounter();
+cntr(10, aScndCounter);
