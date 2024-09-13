@@ -9,8 +9,12 @@ window.app.counter = (function (clicker) {
         return count;
     }
     clicker.getClicker= getClicker;
+
+  // SL - indentation is messed up here, thats a problem.
   return clicker;
 
 }(window.app.counter || {}));
-app.counter.increment();
-console.log(app.counter.getClicker());
+
+// SL - why is this here? Its supposed to be incremented 10 times in another file
+//app.counter.increment();
+//console.log(app.counter.getClicker());
