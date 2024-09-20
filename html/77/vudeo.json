@@ -1,0 +1,17 @@
+[
+    {
+        "name": "video1",
+        "url": "video/El Hanaar Hazeh.mp4",
+        "image": "../images/Screenshot 2024-09-19 193137.png"
+    },
+    {
+        "name": "video2",
+        "url": "video/ivri.mp4",
+        "image": "../images/Screenshot 2024-09-19 193417.png"
+    },
+    {
+        "name": "video3",
+        "url": "video/kolzman.mp4",
+        "image": "../images/Screenshot 2024-09-19 193618.png"
+    }
+]
