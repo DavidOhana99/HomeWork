@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #wall,
+    #room {
+        background-image: 100%
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: red;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+  
+
+    #B1,
+    #B2 {
+        background-color: #333;
+
+
+    }
+
+    #B1:hover,
+    #B2:hover {
+        background-color: red;
+    }
+
+    .parts {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+    }
+    body{
+       background-size:cover;
+        
+        background-repeat: no-repeat;
+        
+    }
+    /* .items{
+        position: absolute;
+        height: 100px;
+        width: 350px;
+        flex-wrap:wrap;
+        overflow: auto;
+        
+    } */
+    
+</style>
+
+<body>
+
+
+    <div class="navbar">
+        <a> <button id="B1">Backgroung 1</button></a>
+        <a> <button id="B2">Background 2</button></a>
+        <div class="dropdown">
+            <button class="dropbtn">pieces
+                <i class="kk"></i>
+            </button>
+            <div class="dropdown-content">
+                <!-- bdy parts -->
+                <img class="parts" src="/images/potatoHead/body/body1.png" alt="">
+                <img class="parts" src="/images/potatoHead/body/body2.png" alt="">
+                <img class="parts" src="/images/potatoHead/ears/ears.png" alt="">
+                <img class="parts" src="/images/potatoHead/ears/ears2.png" alt="">
+                <img class="parts" src="/images/potatoHead/ears/leftEar.png" alt="">
+                <img class="parts" src="/images/potatoHead/ears/rightEar.png" alt="">
+                <img class="parts" src="/images/potatoHead/eyes/blueEyes.png" alt="">
+                <img class="parts" src="/images/potatoHead/eyes/purpleEyes.png" alt="">
+                <img class="parts" src="/images/potatoHead/eyes/redEyes.png" alt="">
+                <img class="parts" src="/images/potatoHead/eyes/regEyes1.png" alt="">
+                <img class="parts" src="/images/potatoHead/eyes/regEyes2.png" alt="">
+                <img class="parts" src="/images/potatoHead/eyes/spyFace.png" alt="">
+                <img class="parts" src="/images/potatoHead/mouth/lips.png" alt="">
+                <img class="parts" src="/images/potatoHead/mouth/mustacheTeeth.png" alt="">
+                <img src="/images/potatoHead/mouth/regTeeth.png" alt="">
+                <img src="/images/potatoHead/nose/nose.png" alt="">
+                <img src="/images/potatoHead/nose/redNose.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="items"><img class="parts" src="/images/potatoHead/body/body1.png" alt="">
+        <img class="parts" src="/images/potatoHead/body/body2.png" alt="">
+        <img class="parts" src="/images/potatoHead/ears/ears.png" alt="">
+        <img class="parts" src="/images/potatoHead/ears/ears2.png" alt="">
+        <img class="parts" src="/images/potatoHead/ears/leftEar.png" alt="">
+        <img class="parts" src="/images/potatoHead/ears/rightEar.png" alt="">
+        <img class="parts" src="/images/potatoHead/eyes/blueEyes.png" alt="">
+        <img class="parts" src="/images/potatoHead/eyes/purpleEyes.png" alt="">
+        <img class="parts" src="/images/potatoHead/eyes/redEyes.png" alt="">
+        <img class="parts" src="/images/potatoHead/eyes/regEyes1.png" alt="">
+        <img class="parts" src="/images/potatoHead/eyes/regEyes2.png" alt="">
+        <img class="parts" src="/images/potatoHead/eyes/spyFace.png" alt="">
+        <img class="parts" src="/images/potatoHead/mouth/lips.png" alt="">
+        <img class="parts" src="/images/potatoHead/mouth/mustacheTeeth.png" alt="">
+        <img src="/images/potatoHead/mouth/regTeeth.png" alt="">
+        <img src="/images/potatoHead/nose/nose.png" alt="">
+        <img src="/images/potatoHead/nose/redNose.png" alt="">
+    </div> -->
+
+
+
+    <!-- <img id="bg1" src="/images/andywall.png" alt=""> -->
+    <!-- <img id="bg2" src="/images/andyroom.jpg" alt=""> -->
+
+    <script src="hw.js"></script>
+</body>
+
+</html>
