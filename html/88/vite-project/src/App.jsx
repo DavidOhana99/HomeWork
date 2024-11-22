@@ -8,8 +8,8 @@ function App() {
 
   const theJSX=(
     <>
-     <Address adress = "1882" street="21st" city = "brooklyn" zip="11229" />
-     <Address2 adress = "1882" street="21st" city = "brooklyn" zip="11229" />
+     <Address address = "1882" street="21st" city = "brooklyn" zip="11229" />
+     <Address2 address = "1882" street="21st" city = "brooklyn" zip="11229" />
     </>
    
   );
