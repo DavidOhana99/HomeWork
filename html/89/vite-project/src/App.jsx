@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0)
   const [weatherData, setWeatherData] = useState({})
   //make a state like above called weatherData, setWeatherData
-  const apiKey = '4d940566413cbb48ddbe156f2b502364'
+  const apiKey = 'your api'
   const icon = `https://openweathermap.org/img/w`
   // const icon =   `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`
   // 
