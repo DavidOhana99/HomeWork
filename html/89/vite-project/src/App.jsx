@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 function App() {
-  const [count, setCount] = useState(0)
+
   const [weatherData, setWeatherData] = useState({})
   //make a state like above called weatherData, setWeatherData
   const apiKey = 'your api'
@@ -41,7 +41,7 @@ function App() {
     <>
 
       <div className="card">
-          weather in {weatherData.name} is {weatherData.main.temp}
+        weather in {weatherData.name} is {weatherData.main.temp}
         <img
           src={`https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`}
         />
