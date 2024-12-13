@@ -21,7 +21,6 @@ const App = () => {
       textAlign:'center',
       fontFamily: font
       }}>
-         <h1>Font Chooser</h1>
       <select onChange={handleFontChange} value={font}>
         <option value="Arial">Arial</option>
         <option value="Courier New">Courier New</option>
@@ -29,7 +28,7 @@ const App = () => {
         <option value="Times New Roman">Times New Roman</option>
         <option value="Verdana">Verdana</option>
       </select>
-      <h1 style={{margin:0}}>Color Picker App</h1>
+      <h1 style={{margin:0}}>PICK A COLOR ANY COLOR</h1>
       <label>
         Background Color:
         <input
@@ -48,7 +47,7 @@ const App = () => {
         />
       </label>
 
-      <p>This is a sample text with the selected colors!</p>
+      <p>EXCELENT CHOICE SIR!</p>
 
     </div>
   );
