@@ -19,7 +19,7 @@ app.param('a', (req, res, next) => {
   app.get('/subtract/:a/:b', (req, res, next) => {
     const num1 = Number(req.a);
    const num2 = Number(req.b);
-    res.end(`The great sum is ${num1 + num2}`);
+    res.end(`The great sum is ${num1 - num2}`);
   });
   
   app.param('operator', (req, res, next) => {
