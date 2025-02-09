@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="stylesheets/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <button id="addContact">add contact</button>
+    <table id="contactsTable">
+      <caption>recipes</caption>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>description</th>
+          <th>instructions</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="5">no recipes loaded</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form id="addRecipesForm">
+      <div class="form-group">
+        <label for="name">name:</label>
+        <input id="name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="description">description:</label>
+        <input id="description" name="description" required>
+      </div>
+      <div class="form-group">
+        <label for="instructions">instructions:</label>
+        <input id="instructions" name="instructions">
+      </div>
+    
+
+      <button id="cancel" type="button">cancel</button>
+      <button type="reset">reset</button>
+      <button>save</button>
+    </form>
+    <script src="javascripts/jquery-3.7.1.min.js"></script>
+    <script src="javascripts/recipe.js" type="module"></script>
+  </body>
+</html>
