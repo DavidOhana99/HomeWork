@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      body {
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Visited {{visited}} time(s)</h1>
+    <form>
+      <label>Please enter your name
+        <input name="Name" type="input" value="{{inputString}}"/>
+      </label>
+      <button>apply</button>
+       <h2>name entered {{inputString}}</h2>
+
+    </form>
+    <h1>{{appTitle}}</h1>
+    {{> content}}
+  </body>
