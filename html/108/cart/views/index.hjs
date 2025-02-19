@@ -1,0 +1,12 @@
+<h1>{{ title }}</h1>
+<form method="post">
+{{#items}}
+<div>
+<img src="{{img}}" alt="{{name}}"/>
+{{Name}} {{Price}} {{desc}} {{id}}
+</div>
+<button>Update</button>
+{{/items}}
+
+{{!-- <input type="hidden" name="id" value="{{id}}"> --}}
+</form>
