@@ -28,7 +28,11 @@ router.route('/')
 
       res.status(201)
         //.location(`/${req.body._id}`)
-        .send(req.body);
+        if (!results) {
+          return res.status(404)
+            .send(`Unable to verify post ${req.params.id}`);
+        }
+        res.send(req.body);
     } catch (e) {
       next(e);
     }
