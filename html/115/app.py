@@ -1,3 +1,4 @@
-names = ['joe', 'john', 'jane', 'jill']
+names = ['joe', 'john', 'jane johnson', 'jill']
 print(names)
-print(names[3])
+print(names[-2])
+print(names[-2][2:-3])
